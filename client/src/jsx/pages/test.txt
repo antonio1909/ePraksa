@@ -1,0 +1,25 @@
+
+                                <div className="d-flex">
+                                  <Link
+                                    className="btn btn-primary shadow btn-xs sharp mr-2"
+                                    onClick={() => setAddCard(true)}
+                                  >
+                                    <i className="fa fa-plus"></i>
+                                  </Link>
+                                  <Link
+                                    className="btn btn-secondary	 shadow btn-xs sharp mr-2"
+                                    onClick={(event) =>
+                                      handleEditClick(event, content)
+                                    }
+                                  >
+                                    <i className="fa fa-pencil"></i>
+                                  </Link>
+                                  <Link
+                                    className="btn btn-danger shadow btn-xs sharp"
+                                    onClick={() =>
+                                      handleDeleteClick(content.id)
+                                    }
+                                  >
+                                    <i className="fa fa-trash"></i>
+                                  </Link>
+                                </div>

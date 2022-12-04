@@ -1,0 +1,13 @@
+
+                <Dropdown>
+                  <Dropdown.Toggle variant='primary'>
+                    Dropdown button
+                  </Dropdown.Toggle>
+                  <Dropdown.Menu>
+                    <Dropdown.Item href='#'>Link 1</Dropdown.Item>
+                    <Dropdown.Item href='#'>Link 2</Dropdown.Item>
+                    <Dropdown.Item href='#'>Link 3</Dropdown.Item>
+                    <div className='dropdown-divider'></div>
+                    <Dropdown.Item href='#'>Another link</Dropdown.Item>
+                  </Dropdown.Menu>
+                </Dropdown>
